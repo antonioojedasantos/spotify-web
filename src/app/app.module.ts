@@ -5,13 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
+  declarations: [ //TODO:  pueden ser declaraciones, mudulos, componentes 
+    AppComponent, 
   ],
-  imports: [
+  imports: [ //TODO: solo s eimportan otros modulos 
     BrowserModule,
     AppRoutingModule
   ],
+  exports:[],
   providers: [],
   bootstrap: [AppComponent]
 })
